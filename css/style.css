@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  color: #ffffff;
+
+  font-family: 'Roboto', sans-serif;
+
+
+  /* Body Background gradient */
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 5000% 1000%;
+  animation: gradient 15s ease infinite;
+  
+  /* Body Background gradient */
+
+}
+
+/* Gradient animate */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+
+  }
+
+}
+
+/* Gradient animate */
+/* menu */
+nav.menu {
+  background: transparent;
+}
+
+nav.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav.menu li {
+  list-style: none;
+}
+
+a {
+  background-color: rgba(0, 0, 0, 0.055);
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px white solid;
+  padding: 5px 30px;
+  border-radius: 3px;
+  transition: background-color 1s, color 1s, font-size .1s ;
+  box-shadow:1px 3px 5px rgba(0, 0, 0, 0.29) ;
+
+}
+
+a:hover {
+  background-color: #ffffff;
+  color: black;
+  
+}
+
+/* menu */
+/* titulo e subtitle */
+
+h2.site-subtitle,
+h1.site-title {
+  text-align: center;
+}
+
+h1.site-title {
+  font-size: 25pt;
+}
+
+h2.site-subtitle {
+  font-size: 15pt;
+  font-style: italic;
+}
+
+/* titulo e subtitle */
